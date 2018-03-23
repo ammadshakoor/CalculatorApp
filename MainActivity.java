@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                     mValue = Float.parseFloat(edn1.getText().toString() +" + " + edn2.getText().toString());
                     
                     mAdd = true;
-                    mt.setText( mValue + "");
+                    mt.setText( Float.toString(mValue));
                 }
             }
         });
@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
                     mValue = Float.parseFloat(edn1.getText().toString()+" - " + edn2.getText().toString());
                     
                     mSub = true;
-                    mt.setText( mValue + "");
+                    mt.setText( Float.toString(mValue));
                 }
             }
         });
@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
                     mValue = Float.parseFloat(edn1.getText().toString() +" / " + edn2.getText().toString());
                     
                     mDiv = true;
-                    mt.setText( mValue + "");
+                    mt.setText( Float.toString(mValue));
                 }
             }
         });
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
                     mValue = Float.parseFloat(edn1.getText().toString() +" * " + edn2.getText().toString());
                     
                     mMul = true;
-                    mt.setText( mValue + "");
+                    mt.setText( Float.toString(mValue));
                 }
             }
         });
@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
                     mValue = Float.parseFloat(edn1.getText().toString() +" % " + edn2.getText().toString());
                     
                     mMul = true;
-                    mt.setText( mValue + "");
+                    mt.setText( Float.toString(mValue));
                 }
             }
         });
